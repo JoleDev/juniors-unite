@@ -2,7 +2,7 @@ import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import TestComponent from './components/testComponent';
-import { Button, ButtonGroup, DropdownToggle, DropdownMenu, DropdownItem, ButtonDropdown, Badge } from 'reactstrap'
+import { Button, ButtonGroup, Badge } from 'reactstrap'
 import About from './components/about.jsx'
 import howToStart from './components/howToStart.jsx'
 import Home from './components/home.jsx';
@@ -16,19 +16,18 @@ const AppRouter = () => (
       <nav className='Navbar'>
       <a target="_blank" 
       href="mailto:oytuntutuncu86@gmail.com">
-      <img class="contacticons" 
+      <img className="contacticons" 
       src="https://icons.iconarchive.com/icons/graphicloads/100-flat/256/email-2-icon.png" />
       </a>
       <a target="_blank" 
       href="https://api.whatsapp.com/send?phone=905554147155">
-      <img class="contacticons" 
+      <img className="contacticons" 
       src="https://i0.wp.com/www.vectorico.com/wp-content/uploads/2018/02/Whatsapp-Icon.png?resize=300%2C300" />
       </a> 
       <a target='_blank' href='https://github.com/oytuntutun/juniors-unite' ><img id='navicon' src='/img/navicon.png' /></a>
-        <ButtonGroup vertical className='inner-navbar' style={{ alignItems: 'center' }}>
+        <ButtonGroup vertical className='inner-navbar' style={{ alignItems: 'center', }}>
           <Link to="/"><Button
             color='primary'
-            size='lg'
             block>Home
          </Button></Link>
           <Link to="/about/"><Button color='primary'>About</Button></Link>

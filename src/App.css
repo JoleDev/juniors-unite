@@ -10,7 +10,7 @@ padding-top: 20px;
   background-color: blue;
   height: 51vw;
   min-height: 600px;
-  max-width: 500px;
+  max-width: 300px;
 }
 
 .inner-navbar{
@@ -20,7 +20,7 @@ padding-top: 20px;
 
 #navicon{
   display: flex;
-  width: 200px;
+  width: 180px;
   height: auto;
   display: block;
   margin-left: auto;
@@ -29,7 +29,7 @@ padding-top: 20px;
 .contacticons{
   max-width: 20%;
   max-height: auto;
-  display: flex;
+    display: flex;
   width: 200px;
   height: auto;
   display: block;
