@@ -2,11 +2,15 @@
   text-align: center;
   background-color: black
 }
-
+#navicon {
+padding-top: 20px;
+}
 .Navbar{
   float: left;
   background-color: blue;
   height: 51vw;
+  min-height: 600px;
+  max-width: 500px;
 }
 
 .inner-navbar{
@@ -15,6 +19,16 @@
 }
 
 #navicon{
+  display: flex;
+  width: 200px;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contacticons{
+  max-width: 20%;
+  max-height: auto;
   display: flex;
   width: 200px;
   height: auto;
