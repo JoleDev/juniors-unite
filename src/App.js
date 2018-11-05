@@ -15,16 +15,21 @@ const AppRouter = () => (
     <div>
       <nav className='Navbar'>
       <a target="_blank" 
+      alt=''
       href="mailto:oytuntutuncu86@gmail.com">
-      <img className="contacticons" 
+      <img className="contacticons"
+      alt="e-mail me"
       src="https://icons.iconarchive.com/icons/graphicloads/100-flat/256/email-2-icon.png" />
       </a>
       <a target="_blank" 
       href="https://api.whatsapp.com/send?phone=905554147155">
       <img className="contacticons" 
+      alt='text me'
       src="https://i0.wp.com/www.vectorico.com/wp-content/uploads/2018/02/Whatsapp-Icon.png?resize=300%2C300" />
       </a> 
-      <a target='_blank' href='https://github.com/oytuntutun/juniors-unite' ><img id='navicon' src='/img/navicon.png' /></a>
+      <a target='_blank' 
+      href='https://github.com/oytuntutun/juniors-unite' >
+      <img alt='together we are strong'  id='navicon' src='/img/navicon.png' /></a>
         <ButtonGroup vertical className='inner-navbar' style={{ alignItems: 'center', }}>
           <Link to="/"><Button
             color='primary'
