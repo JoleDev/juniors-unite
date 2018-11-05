@@ -3,31 +3,36 @@ import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import TestComponent from './components/testComponent';
 import { Button, ButtonGroup, DropdownToggle, DropdownMenu, DropdownItem, ButtonDropdown } from 'reactstrap'
+import About from './components/about.jsx'
+import Users from './components/reserved.jsx'
+import Index from './components/index.jsx'
 
 
-const Index = () => <div><h2>Home</h2></div>;
-const About = () => <h2>About</h2>;
-const Users = () => <h2>Users</h2>;
 // TestComponent is being imported, your components will be imported as well.
 
 const AppRouter = () => (
   <Router>
     <div>
       <nav className='Navbar'>
-        <ButtonGroup vertical>
-        <Link to="/"><Button color='primary'>Home</Button></Link>
-          <Link to="/about/"><Button>About</Button></Link>
-          <Link to="/testComponent"><Button>test</Button></Link>
-          <Link to="/users/"><Button>Users</Button></Link>
+      <img id='navicon' src='/img/navicon.png' />
+        <ButtonGroup vertical className='inner-navbar' style={{ alignItems: 'center' }}>
+          <Link to="/"><Button
+            color='primary'
+            size='lg'
+            block>Home
+         </Button></Link>
+          <Link to="/about/"><Button color='primary'>About</Button></Link>
+          <Link to="/users/"><Button color='primary'>Reserved Link</Button></Link>
           <ButtonDropdown>
-            <DropdownToggle caret>
-              Dropdown
+            <DropdownToggle color='danger'>
+              Components
     </DropdownToggle>
             <DropdownMenu>
               <DropdownItem>Dropdown Link</DropdownItem>
               <DropdownItem>Dropdown Link</DropdownItem>
             </DropdownMenu>
           </ButtonDropdown>
+          <Link to="/testComponent"><Button color='primary'>Example component</Button></Link>
         </ButtonGroup>
       </nav>
 
