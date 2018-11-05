@@ -1,7 +1,7 @@
 <h2>This project's purpose is to provide an easy place to ship your codes.</h2>
 
 
-<b>To contribute have this project locally installed: </b>
+<b>To contribute; have this project locally installed: </b>
 
 <h1>Steps</h1>
 1- Fork this repository. <br/>
@@ -15,3 +15,4 @@ This project has; React, React-Router and Bootstrap. What we want to do is basic
 
 <h2>Have an idea? </h2> <br/>
 Fine! let's do it together! 
+you can contact me over skype: oytun.tutun 
