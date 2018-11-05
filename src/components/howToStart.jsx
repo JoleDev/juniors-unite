@@ -8,7 +8,9 @@ class Reserved extends Component {
         <h1 className='display-5'>Do you want to join ?</h1>
         <p className='lead' style={{ maxWidth: 900 }}>
         First we need to set your local environment.
-        <a target='_blank' href='https://github.com/oytuntutun/juniors-unite' > here you can go to the repo.</a> instructions are also in gitHub.
+        <a target='_blank' 
+        rel="noopener noreferrer"
+        href='https://github.com/oytuntutun/juniors-unite' > here you can go to the repo.</a> instructions are also in gitHub.
         <br />1- Fork this repository. <br />
 2- Clone the repository.<br />
 3- Go to project folder in your terminal then type <b>-yarn</b> to install all required packages.<br />

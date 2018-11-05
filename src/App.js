@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import TestComponent from './components/testComponent';
+import TestComponent from './components/TestComponent';
 import { Button, ButtonGroup, Badge } from 'reactstrap'
-import About from './components/about.jsx'
-import howToStart from './components/howToStart.jsx'
-import Home from './components/home.jsx';
+import About from './components/About.jsx'
+import HowToStart from './components/HowToStart.jsx'
+import Home from './components/Home.jsx';
 
 
 // TestComponent is being imported, your components will be imported as well.
@@ -15,6 +15,7 @@ const AppRouter = () => (
     <div>
       <nav className='Navbar'>
       <a target="_blank" 
+      rel="noopener noreferrer"
       alt=''
       href="mailto:oytuntutuncu86@gmail.com">
       <img className="contacticons"
@@ -22,12 +23,14 @@ const AppRouter = () => (
       src="https://icons.iconarchive.com/icons/graphicloads/100-flat/256/email-2-icon.png" />
       </a>
       <a target="_blank" 
+      rel="noopener noreferrer"
       href="https://api.whatsapp.com/send?phone=905554147155">
       <img className="contacticons" 
       alt='text me'
       src="https://i0.wp.com/www.vectorico.com/wp-content/uploads/2018/02/Whatsapp-Icon.png?resize=300%2C300" />
       </a> 
       <a target='_blank' 
+      rel="noopener noreferrer"
       href='https://github.com/oytuntutun/juniors-unite' >
       <img alt='together we are strong'  id='navicon' src='/img/navicon.png' /></a>
         <ButtonGroup vertical className='inner-navbar' style={{ alignItems: 'center', }}>
@@ -45,7 +48,7 @@ const AppRouter = () => (
       <Route path="/testComponent" component={TestComponent} />
       <Route path="/" exact component={Home} />
       <Route path="/about/" component={About} />
-      <Route path="/howtostart/" component={howToStart} />
+      <Route path="/howtostart/" component={HowToStart} />
     </div>
   </Router>
 );
