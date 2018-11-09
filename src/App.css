@@ -8,9 +8,10 @@ padding-top: 20px;
 .Navbar{
   float: left;
   background-color: blue;
-  height: 51vw;
+  height: 100vh;
   min-height: 600px;
   max-width: 300px;
+  overflow-y: auto;
 }
 
 .inner-navbar{

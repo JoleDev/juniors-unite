@@ -1,11 +1,11 @@
 import React from 'react';
 import './App.css';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route } from "react-router-dom";
 import TestComponent from './components/TestComponent';
-import { Button, ButtonGroup, Badge } from 'reactstrap'
 import About from './components/About.jsx'
 import HowToStart from './components/HowToStart.jsx'
 import Home from './components/Home.jsx';
+import Navbar from './components/Navbar';
 
 
 // TestComponent is being imported, your components will be imported as well.
@@ -13,38 +13,7 @@ import Home from './components/Home.jsx';
 const AppRouter = () => (
   <Router>
     <div>
-      <nav className='Navbar'>
-      <a target="_blank" 
-      rel="noopener noreferrer"
-      alt=''
-      href="mailto:oytuntutuncu86@gmail.com">
-      <img className="contacticons"
-      alt="e-mail me"
-      src="https://icons.iconarchive.com/icons/graphicloads/100-flat/256/email-2-icon.png" />
-      </a>
-      <a target="_blank" 
-      rel="noopener noreferrer"
-      href="https://api.whatsapp.com/send?phone=905554147155">
-      <img className="contacticons" 
-      alt='text me'
-      src="https://i0.wp.com/www.vectorico.com/wp-content/uploads/2018/02/Whatsapp-Icon.png?resize=300%2C300" />
-      </a> 
-      <a target='_blank' 
-      rel="noopener noreferrer"
-      href='https://github.com/oytuntutun/juniors-unite' >
-      <img alt='together we are strong'  id='navicon' src='/img/navicon.png' /></a>
-        <ButtonGroup vertical className='inner-navbar' style={{ alignItems: 'center', }}>
-          <Link to="/"><Button
-            color='primary'
-            block>Home
-         </Button></Link>
-          <Link to="/about/"><Button color='primary'>About</Button></Link>
-          <Link to="/howtostart/"><Button color='primary'>How to start?</Button></Link>
-          <h1><Badge color='danger' pill>Components</Badge></h1>
-          <Link to="/testComponent"><Button color='primary'>Example component</Button></Link>
-        </ButtonGroup>
-      </nav>
-
+      <Navbar />
       <Route path="/testComponent" component={TestComponent} />
       <Route path="/" exact component={Home} />
       <Route path="/about/" component={About} />

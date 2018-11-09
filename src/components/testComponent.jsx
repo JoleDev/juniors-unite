@@ -9,7 +9,7 @@ class TestComponent extends Component {
       <div>
         <Jumbotron className='example' color='primary'>
           <h1 className='display-5' >Example Component:</h1>
-          <p className='lead'>here could be anything, check out App.js.js for what else was needed to be created.</p>
+          <p className='lead'>here could be anything, check out App.js for what is needed to create your component.</p>
         </Jumbotron>
       </div>
     )
