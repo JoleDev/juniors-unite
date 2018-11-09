@@ -13,7 +13,7 @@ We are deployed here: <a>https://juniorsunite.netlify.com/</a>
 5- Make a pull request.<br/>
 
 
-This project has; React, React-Router and Bootstrap. What we want to do is basicly anything! But i was thinking maybe you create a component in the components folder, then create it's link in the navbar.
+This project has; React, React-Router and Bootstrap. What we want to do is just play with this app! But i think maybe you create a component in the components folder, then create it's link in the navbar and show it.
 
 <h2>Have an idea? </h2> <br/>
 Fine! let's do it together! 
