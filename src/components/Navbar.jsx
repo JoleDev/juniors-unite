@@ -32,10 +32,12 @@ class Navbar extends Component {
               color='primary'
               block>Home
          </Button></Link>
-            <Link to="/about/"><Button color='primary'>About</Button></Link>
             <Link to="/howtostart/"><Button color='primary'>How to start?</Button></Link>
+            <Link to="/about/"><Button color='primary'>About</Button></Link>
             <h1><Badge color='danger' pill>Blog</Badge></h1>
-            <Link to="/testComponent"><Button color='primary'>Example component</Button></Link>
+            <Link to="/testComponent"><Button color='primary'>Example Blog Page</Button></Link>
+            <h1><Badge color='danger' pill>Stranger Things!</Badge></h1>
+            <Link to="/problem1"><Button color='primary'>Example Problem Page</Button></Link>
           </ButtonGroup>
         </nav>
       </div>

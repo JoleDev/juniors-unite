@@ -9,8 +9,6 @@ padding-top: 20px;
   float: left;
   background-color: blue;
   height: 100vh;
-  min-height: 600px;
-  max-width: 300px;
   overflow-y: auto;
 }
 
