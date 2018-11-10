@@ -33,7 +33,7 @@ class ExampleProblem extends Component {
             Try to find that logic.
           </p>
           <Button className='solutionButton' onClick={this.toggleHidden.bind(this)} color='danger'>Show me the solution!</Button>
-          <p style={{ visibility: this.state.isHidden }}>
+          <p className='lead' style={{ visibility: this.state.isHidden }}>
             <b>Solution:</b> <br />
             Consider each open paranthese "(" for +1 and each close paranthese ")" for -1. If the number goes below 0 it is immediately false.
             Also when the calculation complete our number must be 0 otherwise false again. <br />
