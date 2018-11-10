@@ -6,6 +6,7 @@ import About from './components/About.jsx'
 import HowToStart from './components/HowToStart.jsx'
 import Home from './components/Home.jsx';
 import Navbar from './components/Navbar';
+import ExampleProblem from './components/Problem';
 
 
 // TestComponent is being imported, your components will be imported as well.
@@ -18,6 +19,7 @@ const AppRouter = () => (
       <Route path="/" exact component={Home} />
       <Route path="/about/" component={About} />
       <Route path="/howtostart/" component={HowToStart} />
+      <Route path="/problem1/" component={ExampleProblem} />
     </div>
   </Router>
 );
