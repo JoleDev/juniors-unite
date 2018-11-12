@@ -15,13 +15,13 @@ We are deployed here: <a>https://juniorsunite.netlify.com/</a>
 
 This project has; React, React-Router and Bootstrap. What we want to do is just play with this app! But i think maybe you create a component in the components folder, then create it's link in the navbar and show it.
 <h1>How to create a new component?</h1>
-1- Define your components Route by naming it. go to App.js inside the div create a new line:
-<Route path="/YOURCOMPONENT/" component={YOURCOMPONENT} />    like this 
-2- Create your component under src/components/YOURCOMPONENT.JSX
-3- Import it to App.js
-4- Now when you click to your component link navbar will stay the same, and main page is going to load your component(thanks to react-router).
-5- Here on you can create any component as you wish; an egg timer, a simple music player, a random photo app, anything you desire or found fun/useful.
-6- (Optional) If you want to apply custom CSS create a css file under /src/styles/YOURCOMPONENT.css
+1- Define your components Route by naming it. go to App.js inside the div create a new line:<br/>
+<Route path="/YOURCOMPONENT/" component={YOURCOMPONENT} />    like this <br/>
+2- Create your component under src/components/YOURCOMPONENT.JSX<br/>
+3- Import it to App.js<br/>
+4- Now when you click to your component link navbar will stay the same, and main page is going to load your component(thanks to react-router).<br/>
+5- Here on you can create any component as you wish; an egg timer, a simple music player, a random photo app, anything you desire or found fun/useful.<br/>
+6- (Optional) If you want to apply custom CSS create a css file under /src/styles/YOURCOMPONENT.css<br/>
 
 
 <h2>Have an idea? </h2> <br/>
