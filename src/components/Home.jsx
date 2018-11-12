@@ -26,11 +26,11 @@ class Home extends Component {
            you help others to develop themselves as well. Sooner or later as starters many of us face similar issues.
            </p><br />
 
-            <h1 className='display-5'>Why Stranger Things section exist?</h1>
+            <h1 className='display-5'>Why Co-Blog section exist?</h1>
            <p className='lead'>
-            Stranger things are the section that we are going to share some interesting problems and solutions. 
+            Co-Blog is the section that we are going to share some interesting problems and solutions. 
             solutions will be hidden, by a button it will switched to visible so the user will take desired time to solve the problem 
-            by himself/herself.
+            by himself/herself. Or you can share anything insteresting it doesn't have to be a problem.
            </p><br />
 
           <p style={{float: 'right'}}><b> Authors: We are!</b></p>

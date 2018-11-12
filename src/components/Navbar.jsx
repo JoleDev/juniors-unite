@@ -34,10 +34,10 @@ class Navbar extends Component {
          </Button></Link></h3>
             <h3><Link to="/howtostart/"><Button color='primary'>How to start?</Button></Link></h3>
             <h3><Link to="/about/"><Button color='primary'>About</Button></Link></h3>
-            <h2><Badge color='danger' pill>Blog</Badge></h2>
-            <Link to="/testComponent"><Button color='primary'>Example Blog Page</Button></Link>
-            <h2><Badge color='danger' pill>Stranger Things!</Badge></h2>
-            <Link to="/problem1"><Button color='primary'>Example Problem Page</Button></Link>
+            <h2><Badge color='danger' pill>Components</Badge></h2>
+            <Link to="/testComponent"><Button color='primary'>Example Component </Button></Link>
+            <h2><Badge color='danger' pill>Co-Blog</Badge></h2>
+            <Link to="/problem1"><Button color='primary'>Example Blog Page</Button></Link>
           </ButtonGroup>
         </nav>
       </div>

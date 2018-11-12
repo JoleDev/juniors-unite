@@ -8,8 +8,8 @@ import Home from './components/Home.jsx';
 import Navbar from './components/Navbar';
 import ExampleProblem from './components/Problem';
 
+// ^ import your component here documentation 3. step
 
-// TestComponent is being imported, your components will be imported as well.
 
 const AppRouter = () => (
   <Router>
@@ -20,6 +20,7 @@ const AppRouter = () => (
       <Route path="/about/" component={About} />
       <Route path="/howtostart/" component={HowToStart} />
       <Route path="/problem1/" component={ExampleProblem} />
+      {/* ^ create your route here 1.step */}
     </div>
   </Router>
 );
