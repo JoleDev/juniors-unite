@@ -9,7 +9,6 @@ padding-top: 20px;
   float: left;
   background-color: blue;
   height: 100vh;
-  overflow-y: auto;
 }
 
 .inner-navbar{

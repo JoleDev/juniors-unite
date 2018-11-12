@@ -28,15 +28,15 @@ class Navbar extends Component {
             href='https://github.com/oytuntutun/juniors-unite' >
             <img alt='together we are strong' id='navicon' src='/img/navicon.png' /></a>
           <ButtonGroup vertical className='inner-navbar' style={{ alignItems: 'center', }}>
-            <Link to="/"><Button
+            <h3><Link to="/"><Button
               color='primary'
               block>Home
-         </Button></Link>
-            <Link to="/howtostart/"><Button color='primary'>How to start?</Button></Link>
-            <Link to="/about/"><Button color='primary'>About</Button></Link>
-            <h1><Badge color='danger' pill>Blog</Badge></h1>
+         </Button></Link></h3>
+            <h3><Link to="/howtostart/"><Button color='primary'>How to start?</Button></Link></h3>
+            <h3><Link to="/about/"><Button color='primary'>About</Button></Link></h3>
+            <h2><Badge color='danger' pill>Blog</Badge></h2>
             <Link to="/testComponent"><Button color='primary'>Example Blog Page</Button></Link>
-            <h1><Badge color='danger' pill>Stranger Things!</Badge></h1>
+            <h2><Badge color='danger' pill>Stranger Things!</Badge></h2>
             <Link to="/problem1"><Button color='primary'>Example Problem Page</Button></Link>
           </ButtonGroup>
         </nav>
