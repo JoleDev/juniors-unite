@@ -14,8 +14,8 @@ We are deployed here: <a>https://juniorsunite.netlify.com/</a>
 
 
 This project has; React, React-Router and Bootstrap. What we want to do is just play with this app! But i think maybe you create a component in the components folder, then create it's link in the navbar and show it.
-<h1>How to create a new component?</h1><br/>
-When you open the project with your editor, you will find step 1 & 3 commented just follow.
+<h1>How to create a new component?</h1>
+<b>When you open the project with your editor, you will find step 1 & 3 commented just follow.</b>
 
 1- Define your components Route by naming it. go to App.js inside the div create a new line:<br/>
 <Route path="/YOURCOMPONENT/" component={YOURCOMPONENT} />    like this <br/>
